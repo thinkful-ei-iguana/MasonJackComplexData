@@ -8,11 +8,16 @@
 </head>
 <body>
     <form>
-        <label for="parks">Search a Park</label>
-        <input type="text" name="parks" id="parks">
-        <label for="NumResults">Number of Results</label>
-        <input type="text" name="parks" id="parks">
+        <label for="state">Search a Park</label>
+        <input type="text" name="state" id="state">
+        <label for="resultNum">Number of Results</label>
+        <input type="text" name="resultNum" id="resultNum">
+        <input type="submit">
     </form>
+    <section class="results hidden">
+        <h2>Search Results</h2>
+        <div class="searchResults"></div>
+    </section>
     <script src="https://code.jquery.com/jquery-3.3.1.js"crossorigin="anonymous" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     <script src="index.js"></script>
 </body>
